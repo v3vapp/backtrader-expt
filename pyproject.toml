@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "backtrader-expt"
+version = "0.1.0"
+description = ""
+authors = ["v3vapp <v3v.app@gmail.com>"]
+readme = "README.md"
+packages = [{include = "backtrader_expt"}]
+
+[tool.poetry.dependencies]
+python = "^3.5"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
